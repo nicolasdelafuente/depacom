@@ -44,10 +44,12 @@ export const MuiSelect = () => {
             helperText='Por favor seleccionar tu país'
             error
           >
+
             <MenuItem value='AR'>Argentina</MenuItem>
             <MenuItem value='BR'>Brasil</MenuItem>
             <MenuItem value='IN'>India</MenuItem>
             <MenuItem value='US'>USA</MenuItem>
+
           </TextField>
         </Box>
       </Stack>
